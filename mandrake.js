@@ -8,7 +8,7 @@ export class Mandrake {
     this.width = this.spriteWidth;
     this.height = this.spriteHeight;
     this.x = this.canvasWidth / 2 - this.width / 2;
-    this.y = this.canvasHeight - this.height;
+    this.y = this.canvasHeight - this.height + 20;
     this.minFrame = 0;
     this.maxFrame = 355;
     this.frame = 0;
